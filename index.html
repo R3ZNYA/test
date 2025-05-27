@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="resume">
+    <div class="header">
+        <h1 class="name">Віктор Ткач</h1>
+        <h2 class="title">Офіс-адміністратор</h2>
+    </div>
+
+    <div class="left-column">
+        <h3>Контакти</h3>
+        <p>м. Чернівці, Україна<br>
+            +38 (95) 203-99-46<br>
+            viktor.tkach@gmail.com</p>
+
+        <h3>Освіта</h3>
+        <p><strong>Національний університет "Львівська політехніка"</strong><br>
+            Львів, Україна<br>
+            Магістр з кібербезпеки<br>
+            Роки навчання: 2022–2026</p>
+
+        <h3>Ключові Навички</h3>
+        <ul>
+            <li>Адміністративна підтримка</li>
+            <li>Робота з документацією</li>
+            <li>Планування зустрічей та подій</li>
+            <li>MS Office, Google Workspace</li>
+            <li>Управління часом</li>
+        </ul>
+    </div>
+
+    <div class="right-column">
+        <h3>Мета</h3>
+        <p>Шукаю можливість застосувати свої навички адміністративного управління, організації документообігу та координації внутрішніх процесів для забезпечення ефективної роботи офісу в динамічній компанії.</p>
+
+        <h3>Досвід Роботи</h3>
+        <p><strong class="job-title">Офіс-менеджер | ТОВ "Бізнес Сервіс"</strong><br>
+            <span class="date-range">Липень 2022 – Теперішній час</span></p>
+
+        <p><strong class="job-title">Помічник адміністратора | ТОВ "Комфорт Груп"</strong><br>
+            <span class="date-range">Вересень 2020 – Червень 2022</span></p>
+
+        <p>Відповідав за організацію щоденної роботи офісу, зустріч клієнтів, обробку вхідної документації та координацію міжвіддільної взаємодії. Ініціював впровадження CRM-системи, що покращило облік звернень та зменшило час обробки запитів на 30%.</p>
+
+        <h3>Комунікація</h3>
+        <p>Маю досвід взаємодії з клієнтами та підрядниками. Вміння слухати та чітко доносити інформацію дозволяє ефективно вирішувати робочі питання.</p>
+
+        <h3>Лідерство</h3>
+        <p>Координував роботу молодших спеціалістів, розподіляючи завдання та контролюючи терміни їх виконання.</p>
+
+        <h3>Рекомендації</h3>
+        <p class="references">Надаються за запитом.</p>
+    </div>
+</div>
+<!-- Модальне вікно форми -->
+<div id="modal">
+    <div id="modalContent">
+        <form action="https://formspree.io/f/mpwdgjwr" method="POST">
+            <h3>Форма зворотнього зв’язку</h3>
+            <label>Ім’я:<br><input type="text" name="name" required></label>
+            <label>Email:<br><input type="email" name="email" required></label>
+            <label>Телефон:<br><input type="tel" name="phone"></label>
+            <label>Повідомлення:<br><textarea name="message" rows="4"></textarea></label>
+            <button type="submit">Відправити</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
